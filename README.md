@@ -1,18 +1,20 @@
 
-# Singh Tees: Talk to a Database
+# TalkToDB: Talk to a Database
 
-This is an end to end LLM project based on Google Palm and Langchain. I have builded a system that can talk to MySQL database. 
-User asks questions in a natural language and the system generates answers by converting those questions to an SQL query and
-then executing that query on MySQL database. 
-Singh Tees is a T-shirt store where they maintain their inventory, sales and discounts data in MySQL database. A store manager 
-will may ask questions such as,
-- How many white color Adidas t shirts do we have left in the stock?
-- How much sales our store will generate if we can sell all extra-small size t shirts after applying discounts?
-The system is intelligent enough to generate accurate queries for given question and execute them on MySQL database
+This is an end-to-end LLM project built using Google PaLM and LangChain.
+It enables natural language interaction with a MySQL database — allowing users to ask questions in plain English, which are then converted into SQL queries, executed on the database, and returned as accurate answers.
+
+Tees is a T-shirt store that maintains its inventory, sales, and discount data in a MySQL database. A store manager can ask questions such as:
+
+How many white Adidas T-shirts do we have left in stock?
+
+How much sales will we generate if we sell all extra-small T-shirts after applying discounts?
+
+The system intelligently generates accurate SQL queries for such questions and executes them on the MySQL database.
 
 ## Project Highlights
 
-- Singh Tees is a t shirt store that sells Adidas, Nike, Van Heusen and Levi's t shirts 
+- Tees is a t shirt store that sells Adidas, Nike, Van Heusen and Levi's t shirts 
 - Their inventory, sales and discounts data is stored in a MySQL database
 - I have builded an LLM based question and answer system that will use following,
   - Google Palm LLM
@@ -29,7 +31,7 @@ The system is intelligent enough to generate accurate queries for given question
 1.Clone this repository to your local machine using:
 
 ```bash
-https://github.com/adityasingh31/Singh-Tees-Talk-to-a-Database.git
+https://github.com/Dakshy123er/TalkToDatabase.git
 ```
 2.Navigate to the project directory:
 
